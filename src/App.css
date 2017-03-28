@@ -1,0 +1,25 @@
+html {box-sizing:border-box;}
+* , *:before , *:after {box-sizing:inherit;}
+
+.button {
+    background-color: #2B96DD;
+    color: white;
+    height: 35px;
+    width: 75px;
+    text-align: center;
+    font-family: "Arial Narrow";
+    font-weight: lighter;
+    text-shadow: 0 -1px rgba(0,0,0,0.4);
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    border-color: rgba(0,0,0,0.2);
+    outline: none;
+}
+
+.button:active {
+  border: none;
+  position: relative;
+  top: 3px;
+  height: 32px;
+}
